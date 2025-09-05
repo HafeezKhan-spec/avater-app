@@ -1,0 +1,16 @@
+body, html, #root {
+  height: 100%;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden; /* Prevent scroll bars */
+}
+
+div[style*="width: 100vw"][style*="height: 100vh"] {
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
